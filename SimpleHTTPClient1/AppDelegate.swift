@@ -15,7 +15,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //
+        /* let viewController = SummaryViewController()
+        print("Creating SummaryViewController object ...")
+        let navController = UINavigationController(rootViewController: viewController)
+        window?.rootViewController = navController
+        //window?.rootViewController = viewController
+        //window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
+        return true
+
         // Override point for customization after application launch.
+        //var rootVC : ViewController
+        //rootVC = DetailViewController()
+        //rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailedVC") as! ViewController
+        //window!.rootViewController = rootVC
+        //window!.backgroundColor = UIColor.white
+        */
         return true
     }
 
